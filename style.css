@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    
+  }
+  img {
+    max-width: 100%;
+    
+  }
+
+  .card {
+    width: calc(95% / 3);
+    
+  }
+
+  .cardup {
+    position: relative;
+    
+  }
+
+  .hearth {
+    position: absolute;
+    right: 0;
+    top: 1em;
+    font-size: 1.2em;
+    padding: 0.4em 0.6em;
+    background-color: #ffffff;
+  }
+
+
+  
+  .scont-green {
+    position: absolute;
+    display: flex;
+    top: 27rem;
+  }
+
+  .scont{
+    
+    background-color: red;
+    width: fit-content;
+    color: #ffffff;
+    padding: 0.2rem 0.8rem;
+    font-size: 0.8rem;
+    margin-right: 0.2rem;
+    font-weight: bold;
+  }
+
+  .green {
+    background-color: green;
+    width: fit-content;
+    color: #ffffff;
+    padding: 0.2rem 0.8rem;
+    font-weight: bold;
+  }
+  
+  .item {
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+
+  .new-price {
+    color: red;
+    font-weight: 800;
+    font-size: 0.9rem;
+  }
+
+  .old-price {
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-decoration: line-through;
+  }
+
+  .img2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .card:hover .img1 {
+    position: relative;
+    z-index: -2;
+  }
+
+  .card:hover .hearth {
+    color: red;
+  }
+  
